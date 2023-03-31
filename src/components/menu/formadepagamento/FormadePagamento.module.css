@@ -1,0 +1,22 @@
+.main-form-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #7D7D7D;
+    text-align: left;
+    max-width: 715px;
+    padding-bottom: 171px;
+}
+
+.main-form-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #292929;
+    text-align: left;
+    padding-bottom: 12px;
+}

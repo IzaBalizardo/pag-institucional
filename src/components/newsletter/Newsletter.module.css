@@ -1,0 +1,136 @@
+
+
+.input-news-container {
+    justify-content: center;
+    padding: 16px 0 16px;
+    max-width: 475px;
+    text-align: initial;
+    margin: 0 auto;
+    font-family: 'Roboto';
+}
+
+.input-news-title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    font-variant: small-caps;
+    color: #303030;
+}
+
+.input-email {
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    margin-top: -190px;
+}
+
+.input-button {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
+}
+
+.input-button button {
+    background: #000000;
+    border: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    height: 42px;
+    margin-top: 8px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding: 14px 40px;
+    width: 126px;
+    
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+button:active {
+    background-color: #000000;
+}
+
+.input-news {
+    border-radius: 4px;
+    border: 1px solid #E5E5E5;
+    width: 340px; 
+    height: 42px;
+    margin-top: 8px;
+    padding: 13px 16px;
+}
+
+.icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    top: 15px;
+    position: relative;
+    padding-right: 14px;
+}
+    
+.icon-wrapper img {
+    max-width: 37px;
+}
+
+@media screen and (max-width: 768px) {
+    .input-news-container {
+        margin: 21px 25px 103px 25px;
+    }
+
+    .input-button {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .input-news-title {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        font-variant: small-caps;
+        color: #303030;
+    }
+
+    .input-news {
+        width: 326px;
+        height: 50px;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        margin-top: 12px;
+    }
+
+    .input-button button {
+        width: 326px;
+        height: 50px;
+    }
+
+    .input-email {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon-wrapper {
+        top: 250px;
+    }
+    
+}

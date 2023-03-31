@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@font-face {
+    font-family: Helvetica Neue LT Std;
+    src: url(../assets/fonts/HelveticaNeueLTProEx.otf)
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+}
+
+.main-container ul {
+    border-right: 1px solid #000000;
+    margin: 189px 32px 78px 100px;
+    list-style: none;
+    max-height: 270px;
+    max-width: 270px;
+}
+
+.main-container li {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7D7D7D;
+    text-align: left;
+    margin-right: 78px;
+    height: 38px;
+    width: 270px;
+    
+}
+
+.main-container li:hover {
+    background-color: #000000;
+    cursor: pointer;  
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 10px 16px;
+}
+
+.main-title-desktop {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #292929;
+    margin-bottom: 90px;
+    margin-top: 80px;
+    margin-right: 175px;
+}
+
+.main-text-sobre {
+    max-width: 715px;
+    text-align: left;
+
+}
+
+.main-text-pagamento {
+    max-width: 715px;
+    text-align: left;
+}
+
+.main-subtitle {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #292929;
+    margin-bottom: 12px;
+}
+
+.main-description {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #7D7D7D;
+
+}
+
+.main-contato-subtitle {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    color: #110D0F;
+}
+
+@media screen and (max-width: 1080px) {
+    .main-container {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+        max-width: 343px;
+        margin: 0 auto;
+    }
+
+    .main-container ul {
+        margin: 33px 25px 22px 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .main-contato-subtitle {
+        margin-top: 22px;
+    }
+
+    .main-title-desktop {
+        display: none;
+    }
+
+    .main-title-mobile {
+        font-family: 'Helvetica Neue LT Std';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #292929;
+        margin: 75px 92px 33px 83px;
+
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .main-title-mobile {
+        display: none
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .main-container ul {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .main-container ul {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+}
